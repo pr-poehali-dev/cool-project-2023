@@ -15,15 +15,15 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4 animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-bold text-white font-heading tracking-tight">
-              Иван Петров
+              Добро пожаловать
             </h1>
             <p className="text-2xl md:text-3xl text-gray-300 font-light">
-              Full-Stack Developer
+              Моё портфолио
             </p>
           </div>
 
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Создаю современные веб-приложения с фокусом на производительность и пользовательский опыт
+            Профорг группы М561, активный участник студенческой жизни и общественных мероприятий
           </p>
 
           <div className="flex gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
@@ -34,41 +34,6 @@ const Hero = () => {
             >
               Связаться
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              onClick={() => scrollToSection('about')}
-              className="border-white/20 text-white hover:bg-white/10"
-            >
-              Узнать больше
-            </Button>
-          </div>
-
-          <div className="flex gap-6 justify-center pt-8 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-accent transition-colors"
-            >
-              <Icon name="Github" size={28} />
-            </a>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-accent transition-colors"
-            >
-              <Icon name="Linkedin" size={28} />
-            </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-accent transition-colors"
-            >
-              <Icon name="Twitter" size={28} />
-            </a>
           </div>
         </div>
       </div>
