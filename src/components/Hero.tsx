@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="mb-8 animate-fade-in">
             <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-accent shadow-2xl">
               <img 
-                src="https://cdn.poehali.dev/projects/22ebbc08-71a7-4c67-b4f5-c9395ae5b370/files/5e6d9dac-1a4c-438f-9c70-d324765bfe2a.jpg" 
+                src="https://cdn.poehali.dev/files/photo_2025-12-26_13-59-58.jpg" 
                 alt="Николашкин Артём"
                 className="w-full h-full object-cover"
               />
